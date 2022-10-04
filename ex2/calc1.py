@@ -52,7 +52,7 @@ class CaluGui(object):
         elif check == 'C': # クリアの場合
             self.calc_str = ''
             self.ans_var.set('')
-        elif check == 'B': # バックの場合
+        elif check == 'B': # バック(入力した文字を新しい方から一文字ずつ消す)の場合
             self.calc_str = self.calc_str[:-1]
         elif check in SYMBOL: # 記号の場合
             if self.calc_str[-1:] not in SYMBOL and self.calc_str[-1:] != '':
