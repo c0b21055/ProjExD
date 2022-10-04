@@ -14,7 +14,7 @@ SYMBOL = ['+', '-', '*', '/']
 
 class CaluGui(object):
     def __init__(self, app=None):
-        self.calc_str = ''
+        self.calc_str = '' #計算用の文字列
     
         app.geometry('300x500')
  
