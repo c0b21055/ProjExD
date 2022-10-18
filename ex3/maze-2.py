@@ -58,9 +58,11 @@ if __name__ == "__main__":
     button = tk.Button(root,text="START",font="30",bg="orange")
     #STARTボタンをオレンジ色で設定
     button.place(x=80,y=60)
+    #ボタンの位置をx座標80、y座標60にする
     button = tk.Button(root,text="GOAL",font="50",bg="blue")
     #GOALボタンを青で設定
     button.place(x=1040,y=630)
+    #ボタンの位置をx座標1040、y座標630にする
     
 
 
