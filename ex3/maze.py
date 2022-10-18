@@ -21,5 +21,6 @@ if __name__ == "__main__":
     key = "" # 現在押されているキーを表す
 
     root.bind("<KeyPress>",key_down)
+    root.bind("<KeyRelease>",key_down)
 
     root.mainloop()
