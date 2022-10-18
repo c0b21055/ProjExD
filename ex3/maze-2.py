@@ -56,8 +56,10 @@ if __name__ == "__main__":
     canv.create_image(cx, cy, image=tori, tag="tori")
 
     button = tk.Button(root,text="START",font="30",bg="orange")
+    #STARTボタンをオレンジ色で設定
     button.place(x=80,y=60)
     button = tk.Button(root,text="GOAL",font="50",bg="blue")
+    #GOALボタンを青で設定
     button.place(x=1040,y=630)
     
 
