@@ -47,7 +47,8 @@ def main():
         r = randint(0, 255) 
         g = randint(0, 255) 
         b = randint(0, 255) 
-        pg.draw.circle(bomb, (a, b, c), (10, 10), 10)      #爆弾の色の更新
+        pg.draw.circle(bomb, (r, g, b), (10, 10), 10)      #爆弾の色の更新,ここで前述したr,g,bを使うことでカラフルな爆弾を作る
+
 
 
 
