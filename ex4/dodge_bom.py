@@ -1,7 +1,7 @@
 from random import randint
 import pygame as pg
 import sys
-import time
+
 
 
 key_delta = {pg.K_UP:[0, -1],
@@ -30,7 +30,7 @@ def main():
     
     bomb = pg.Surface((30, 30))                           #爆弾用のsurface
     bomb.set_colorkey((0, 0, 0))                          #透過処理
-    pg.draw.circle(bomb, (255, 0, 0), (10,10), 10)       #爆弾用surfaceに円をかく
+    pg.draw.circle(bomb, (255, 0, 0), (10,10), 10)        #爆弾用surfaceに円をかく
     bomb_rect = bomb.get_rect()                           #爆弾用rect
     bomb_rect.centerx = randint(0, sc_rect.width)         #爆弾のx座標をランダムに指定
     bomb_rect.centery = randint(0, sc_rect.height)        #爆弾のy座標をランダムに指定
