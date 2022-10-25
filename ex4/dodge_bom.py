@@ -44,9 +44,9 @@ def main():
         scrn_sfc.blit(bg_sfc, bg_rect)                     #背景用surfaceを画面用surfaceに貼り付ける
 
         #爆弾の色をランダムで表示させ続ける
-        a = randint(0, 255) 
+        r = randint(0, 255) 
+        g = randint(0, 255) 
         b = randint(0, 255) 
-        c = randint(0, 255) 
         pg.draw.circle(bomb, (a, b, c), (10, 10), 10)      #爆弾の色の更新
 
 
