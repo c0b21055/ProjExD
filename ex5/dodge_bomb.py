@@ -54,7 +54,6 @@ class Bomb:
         self.rct.centery = randint(0, scr.rct.height)
         self.vx, self.vy = vxy
     
-
     def blit(self, scr:Screen):
         
         scr.sfc.blit(self.sfc, self.rct)
