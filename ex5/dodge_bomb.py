@@ -3,7 +3,6 @@ import sys
 from random import randint
 
 
-
 class Screen:
     def __init__(self, title, wh, bgimg):
         pg.display.set_caption(title)
